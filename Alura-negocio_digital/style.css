@@ -1,0 +1,16 @@
+@import url("stytes/header.css");
+@import url("stytes/main.css");
+@import url("stytes/footer.css");
+
+:root {
+    --cor-fundo: #000000;
+    --cor-azul-marinho: #22D4FD;
+    --cor-branco: #ffffff;
+
+    --font-Montserrat: "Montserrat";
+    --font-KronaOne: "Krona One"; 
+}
+
+body {
+    background-color: var(--cor-fundo);
+}

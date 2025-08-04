@@ -1,0 +1,15 @@
+.cabecalho__navegacao {
+    display: flex;
+    margin-left: 22.2%;
+    margin-top: 2.2em;
+    gap: 80px;
+}
+
+.navegacao__link {
+    font-family: var(--font-Montserrat);
+    font-size: 24px;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: var(--cor-azul-marinho);
+}
