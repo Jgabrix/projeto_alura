@@ -38,10 +38,6 @@
     font-size: 16px;
 }
 
-.menu__login-cadastro:hover {
-    font-size: 19px;
-}
-
 .menu__botao-cadastro {
     background-color: var(--cor-vermelho_escuro);
     padding: 0.9em 1.2em;
