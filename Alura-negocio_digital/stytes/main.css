@@ -115,7 +115,7 @@
     }
 
     .apresentacao__texto {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__container {
@@ -123,11 +123,11 @@
     }
 
     .apresentacao__subtitulo {
-        font-size: 1.15rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__link {
-        font-size: 1rem;
+        font-size: 1.15rem;
         width: 55%;
     }
 
