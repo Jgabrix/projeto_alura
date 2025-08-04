@@ -38,9 +38,18 @@
     font-size: 16px;
 }
 
+.menu__login-cadastro:hover {
+    font-size: 19px;
+}
+
 .menu__botao-cadastro {
     background-color: var(--cor-vermelho_escuro);
     padding: 0.9em 1.2em;
     color: var(--cor-fundo);
     border-radius: 8px;
+}
+
+.menu__botao-cadastro:hover {
+    background-color: var(--cor-vermelho_interativo);
+    font-size: 16px;
 }
