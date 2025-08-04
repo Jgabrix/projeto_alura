@@ -1,0 +1,46 @@
+.cabecalho {
+    background-color: var(--cor-fundo);
+    font-family: var(--font-inter);
+}
+
+.cabecalho__navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 7em;
+}
+
+.menu-logo {
+    gap: 8px;
+}
+
+.menu__texto-logo {
+    font-size: 1.02rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-links {
+    margin-right: auto;
+    margin-left: 14%;
+    gap: 32px;
+}
+
+.menu-login {
+    gap: 30px;
+}
+
+.menu__navegacao, .menu__login-cadastro {
+    text-decoration: none;
+    color: var(--cor-cinza);
+    font-size: 16px;
+}
+
+.menu__botao-cadastro {
+    background-color: var(--cor-vermelho_escuro);
+    padding: 0.9em 1.2em;
+    color: var(--cor-fundo);
+    border-radius: 8px;
+}

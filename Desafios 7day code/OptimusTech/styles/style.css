@@ -1,3 +1,13 @@
+@import url("header.css");
+
 :root {
-    --cor-fundo: #000000;
+    --cor-fundo: #ffffff;
+    --cor-cinza: #667085;
+    --cor-vermelho_escuro: #8E2424;
+
+    --font-inter: "Inter"; 
+}
+
+body {
+    background-color: var(--cor-fundo);
 }
