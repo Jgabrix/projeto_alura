@@ -1,15 +1,38 @@
 .cabecalho__navegacao {
     display: flex;
-    margin-left: 22.2%;
+    margin-left: 20%;
     margin-top: 2.2em;
     gap: 80px;
 }
 
+.cabecalho__navegacao-sobremim {
+    margin-left: 19%;
+}
+
 .navegacao__link {
     font-family: var(--font-Montserrat);
-    font-size: 24px;
+    font-size: 1.3rem;
     font-weight: 500;
 
     text-decoration: none;
     color: var(--cor-azul-marinho);
+}
+
+
+@media screen and (max-width:1350px) {
+
+    .cabecalho {
+        margin-top: 6%;
+    }
+
+    .cabecalho__navegacao {
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .cabecalho {
+        margin-top: 20%;
+    }
 }

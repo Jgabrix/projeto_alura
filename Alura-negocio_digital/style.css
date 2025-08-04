@@ -3,6 +3,7 @@
 @import url("stytes/footer.css");
 
 :root {
+    --cor-link_interativo: #373636;
     --cor-fundo: #000000;
     --cor-azul-marinho: #22D4FD;
     --cor-branco: #ffffff;
@@ -11,6 +12,6 @@
     --font-KronaOne: "Krona One"; 
 }
 
-body {
+body {  
     background-color: var(--cor-fundo);
 }
