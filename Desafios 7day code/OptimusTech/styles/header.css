@@ -1,3 +1,5 @@
+/*Cabeçalho do Navbar*/
+
 .cabecalho {
     background-color: var(--cor-fundo);
     font-family: var(--font-inter);
@@ -6,7 +8,7 @@
 .cabecalho__navbar {
     display: flex;
     justify-content: space-between;
-    margin: 2em 7em;
+    padding: 1.125em 5em;
 }
 
 .menu-logo {
@@ -35,7 +37,7 @@
 .menu__navegacao, .menu__login-cadastro {
     text-decoration: none;
     color: var(--cor-cinza);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .menu__botao-cadastro {
@@ -47,5 +49,37 @@
 
 .menu__botao-cadastro:hover {
     background-color: var(--cor-vermelho_interativo);
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+
+/*Cabeçalho do Banner*/
+
+.cabecalho__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 20em;
+    gap: 30px;
+}
+
+
+.banner__subtitulo {
+    color: var(--cor-vermelho_escuro);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.banner__titulo {
+    color: var(--cor-preto);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.banner__texto {
+    color: var(--cor-cinza);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
 }
