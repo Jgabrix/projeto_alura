@@ -7,7 +7,7 @@
 
 .cabecalho__navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1.125em 5em;
 }
 
