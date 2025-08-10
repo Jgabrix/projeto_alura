@@ -1,0 +1,86 @@
+
+/*Sessão metricas*/
+.apresentacao__metricas {
+    display: flex;
+    justify-content: space-around;
+     padding: 1.125em 2em;
+}
+
+.metrica__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 17.5em;
+    height: 10.5em;
+}
+
+.metrica__titulo {
+    color: var(--cor-vermelho_escuro);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 3.75rem;
+}
+
+.metrica__subtitulo {
+    font-family: var(--font-inter);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.metrica__texto {
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+
+
+
+
+/*Sessão vargas*/
+.apresentacao__vargas {
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+.vargas__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vargas__imagem {
+    width: 90%;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.vargas__subtitulo {
+    font-family: var(--font-inter);
+    color: var(--cor-vermelho_escuro);
+    background-color: var(--cor-vermelho_transparente);
+    border-radius: 16px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.vargas__titulo {
+    font-family: var(--font-inter);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.vargas__texto {
+    font-family: var(--font-inter);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+
+.vargas__descricao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 4em;
+}

@@ -1,5 +1,7 @@
 @import url("header.css");
 @import url("metricas.css");
+@import url("vargas.css");
+@import url("apresentacao.css");
 
 :root {
     --cor-fundo: #ffffff;
@@ -8,6 +10,7 @@
     --cor-vermelho_escuro: #8E2424;
     --cor-vermelho_interativo: #cd4e4e;
     --cor-preto: #101828;
+    --cor-vermelho_transparente: #8E24240D;
 
     --font-inter: "Inter"; 
 }
