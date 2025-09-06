@@ -63,7 +63,9 @@
 
 .apresentacao__imagem {
     width: 40%;
+    
 }
+
 
 .apresentacao__link:hover {
     background-color: var(--cor-link_interativo);
